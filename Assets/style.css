@@ -34,6 +34,8 @@ header span{
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 10px;
+  padding-left: 50px;
+  padding-top: 5px;
   border-radius: 10px;
   background-color: white;
 
@@ -45,12 +47,12 @@ header span{
 }
 
 .button{
-  width: 70px;
   height: 25px;
   border-radius: 5px;
   border: 1px solid #f6f8fa;
   text-align: center;
   font-size: 11px;
+  padding: 0 5px;
 }
 
 .button.button-primary{
