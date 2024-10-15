@@ -44,8 +44,23 @@ header span{
   padding-top: ;
 }
 
-.buttons{
+.button{
   width: 70px;
   height: 25px;
+  border-radius: 5px;
+  border: 1px solid #f6f8fa;
+  text-align: center;
+  font-size: 11px;
+}
+
+.button.button-primary{
   background-color:#42afea;
+  color: white;
+
+}
+
+.button.button-secondary{
+  background-color: white;
+  color: lightgrey;
+  border-color: lightgrey;
 }
