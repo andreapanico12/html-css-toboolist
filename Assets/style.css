@@ -44,6 +44,7 @@ header span{
 
 .main-top{
   padding-top: 10px;
+  margin-bottom: 30px;
 }
 
 .button{
@@ -68,12 +69,26 @@ header span{
 
 }
 
-.section-list li{
+.section-list{
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 10px;
+
 
 }
 
+.section-list .arrow-down{
+  font-size: 16px;
+}
+
+
+.task-list li{
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
 span.completed{
-  font-size: 12px;
+  font-size: 15px;
   color: green;
   display: inline-block;
   width: 15px;
@@ -85,7 +100,7 @@ span.completed{
 }
 
 span.failed{
-  font-size: 12px;
+  font-size: 15px;
   color: red;
   display: inline-block;
   width: 15px;
@@ -98,10 +113,16 @@ span.failed{
 
 .badge{
   height: 20px;
-  border-radius: 10px;
+  border-radius: 7px;
   border: 0 none;
   text-align: center;
-  font-size: 9px;
-  padding: 0 5px;
+  font-size: 10px;
+  padding: 5px 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.badge.badge-editorial{
+  background-color: #42afea;
 
 }

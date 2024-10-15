@@ -1,83 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Esercizio: Toboolist</title>
-  <link rel="stylesheet" href="Assets/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercizio: Toboolist</title>
+    <link rel="stylesheet" href="Assets/style.css" />
+  </head>
 
-<body>
-  
-  <header>
+  <body>
+    <header>
+      <!-- title -->
+      <section>
+        <img class="logo" src="Assets/img/Logo.png" alt="logo" />
+        <span><strong>Toboolist</strong></span>
+      </section>
+      <!--/title -->
+    </header>
+    <main>
+      <section class="container-list">
+        <div class="main-top">
+          <button class="button button-primary">Add Task</button>
+          <button class="button button-secondary">Add Section</button>
+        </div>
 
-    <!-- title -->
-    <section>
-      
-      <img class="logo" src="Assets/img/Logo.png" alt="logo">
-      <span><strong>Toboolist</strong></span>
+        <!-- lists -->
+        <div>
+          <ul>
+            <li class="section-list"> 
+              <span class="arrow-down">&#11206;</span> New Task</li>
 
-    </section>
-    <!--/title -->
-     
-  </header>
-  <main>
-    <section class="container-list">
-      
-      <div class="main-top">
-        <button class="button button-primary"> Add Task</button>
-         <button class="button button-secondary"> Add Section</button>
-      </div>
-
-      <!-- lists -->
-      <div>
-        <ul class="section-list">
-
-          <li>&#11206; New Task</li>
-            
             <ul class="task-list">
               <li>
-                <span class="completed">&check;</span> culo di cane
+                <span class="completed">&check;</span>  Quarterly Newsletter
+                <span class="badge badge-editorial"> Editorial</span>
               </li>
             </ul>
 
-          <li>&#11206;Today</li>
-            
+            <li class="section-list">
+              <span class="arrow-down">&#11206;</span>  Today</li>
+
             <ul class="task-list">
               <li>
                 <span class="completed">&check;</span>
-              </li> <li>
-                <span class="completed">&check;</span>
-              </li> <li>
-                <span class="failed">&cross;</span>
-              </li> <li>
+                Recruiting blog post
+              </li>
+              <li>
                 <span class="completed">&check;</span>
               </li>
-             
+              <li>
+                <span class="failed">&cross;</span>
+              </li>
+              <li>
+                <span class="completed">&check;</span>
+              </li>
             </ul>
-          
-         <li>&#11206;Upcoming</li>
-          
+
+            <li class="section-list">
+              <span class="arrow-down">&#11206;</span> Upcoming</li>
+
             <ul class="task-list">
               <li>
                 <span class="failed">&cross;</span>
-              </li> <li>
-                <span class="completed">&check;</span>
-              </li> <li>
-                <span class="completed">&check;</span>
-              </li> <li>
+              </li>
+              <li>
                 <span class="completed">&check;</span>
               </li>
-            </ul>  
-              
-        </ul>
-      </div>
-      <!-- /lists -->
-
-    </section>
-  
-  </main>
-  <footer></footer>
-
-</body>
+              <li>
+                <span class="completed">&check;</span>
+              </li>
+              <li>
+                <span class="completed">&check;</span>
+              </li>
+            </ul>
+          </ul>
+        </div>
+        <!-- /lists -->
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
