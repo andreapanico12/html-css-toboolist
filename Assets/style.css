@@ -70,7 +70,7 @@ header span{
 }
 
 .section-list{
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 800;
   margin-top: 10px;
 
@@ -84,7 +84,8 @@ header span{
 
 .task-list li{
   font-size: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  padding: 3px;
 }
 
 span.completed{
@@ -123,6 +124,26 @@ span.failed{
 }
 
 .badge.badge-editorial{
-  background-color: #42afea;
+  background-color: #4da7e0;
+
+}
+.badge.badge-goals{
+  background-color: #9878db;
+
+}
+.badge.badge-recruiting{
+  background-color: #6abfa9;
+
+}
+.badge.badge-mobile{
+  background-color: #e9a33c;
+
+}
+.badge.badge-website{
+  background-color: #d664a5;
+
+}
+.badge.badge-sales{
+  background-color: #b0ca29;
 
 }
