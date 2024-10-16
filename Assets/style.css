@@ -29,14 +29,12 @@ header span{
 }
 
 .container-list{
-  width: 785px;
-  height: 585px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 70%;
+  margin:auto;
   margin-top: 40px;
-  margin-bottom: 10px;
   padding-left: 50px;
   padding-top: 5px;
+  padding-bottom: 20px;
   border-radius: 10px;
   background-color: white;
 
@@ -78,8 +76,11 @@ header span{
 
 }
 
+
 .section-list .arrow-down{
-  font-size: 16px;
+  font-size: 14px;
+  padding-left: 4px;
+  padding-right: 2px;
 }
 
 
@@ -90,26 +91,26 @@ header span{
 }
 
 span.completed{
-  font-size: 15px;
+  font-size: 12px;
   color: green;
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
   border: 1px solid green;
   border-radius: 50%;
-  line-height: 15px;
+  line-height: 14px;
   text-align: center;
 }
 
 span.failed{
-  font-size: 15px;
+  font-size: 12px;
   color: red;
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 14px;
+  height: 14px;
   border: 1px solid red;
   border-radius: 50%;
-  line-height: 15px;
+  line-height: 14px;
   text-align: center;
 }
 
